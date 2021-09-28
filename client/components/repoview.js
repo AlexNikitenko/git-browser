@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import axios from 'axios'
 import Header from './header'
 
-const Text = () => {
+const RepoView = () => {
   const [content, setContent] = useState()
   const { userName, repositoryName } = useParams()
 
@@ -26,6 +26,6 @@ const Text = () => {
   )
 }
 
-Text.propTypes = {}
+RepoView.propTypes = {}
 
-export default Text
+export default RepoView
