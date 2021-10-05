@@ -1,16 +1,15 @@
 import React from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-const Header = () => {
-  const { userName, repositoryName } = useParams()
+const Header = (props) => {
 
   return (
     <nav className="flex bg-indigo-800 items-center justify-between flex-wrap p-6 text-white font-bold">
       <div className="flex flex-shrink-0 mr-6" id="repository-name">
-        {userName}
+        {props.userName}
       </div>
       {repositoryName && (
-        <Link id="go-repository-list" to={`/${userName}`}>
+        <Link id="go-repository-list" to={`/${props.userName}/`}>
           Go repository list
         </Link>
       )}

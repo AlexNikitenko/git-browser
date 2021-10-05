@@ -9,11 +9,13 @@ const RepoView = () => {
   const { userName, repositoryName } = useParams()
 
   useEffect(() => {
-    axios
-      .get(`https://raw.githubusercontent.com/${userName}/${repositoryName}/master/README.md`)
-      .then((it) => {
-        setContent(it.data)
-      })
+    if (typeof userName !== 'undefined') {
+      axios
+        .get(`https://raw.githubusercontent.com/${userName}/${repositoryName}/master/README.md`)
+        .then((it) => {
+          setContent(it.data)
+        })
+    }
   }, [userName, repositoryName])
 
   return (
