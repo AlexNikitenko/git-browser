@@ -1,0 +1,23 @@
+[33mcommit 10078de416178252aa3a52ed08d48b6d4c69af64[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: AlexNikitenko <nikitenko.ae90@gmail.com>
+Date:   Tue Oct 5 23:30:24 2021 +0300
+
+    added slashes
+
+[33mcommit 3a5277a688f882cf8c4bb18556aac3b521a9bd96[m
+Author: AlexNikitenko <nikitenko.ae90@gmail.com>
+Date:   Tue Sep 28 18:13:57 2021 +0300
+
+    git-browser application done
+
+[33mcommit 0636487d6a242805aff64c3c1f9b66c6a673ec1d[m
+Author: AlexNikitenko <nikitenko.ae90@gmail.com>
+Date:   Tue Sep 28 17:33:17 2021 +0300
+
+    git-browser application done
+
+[33mcommit 9f7b29c5b948e31272988fefd331696bfa90f341[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Oleksandr Nikitenko <58142018+AlexNikitenko@users.noreply.github.com>
+Date:   Tue Sep 28 15:41:37 2021 +0300
+
+    Initial commit
