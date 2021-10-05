@@ -17,14 +17,14 @@ const RepoList = () => {
 
   return (
     <div>
-      <Header user={userName}/>
+      <Header />
       <div className="flex items-center justify-center h-screen">
         <div className="bg-indigo-800 text-white font-bold rounded-lg border shadow-lg p-10">
           <ul>
             {value.map((repo) => {
               return (
                 <li key={repo}>
-                  <Link to={`${userName}/${repo}/`}>{repo}</Link>
+                  <Link to={`${userName}/${repo}`}>{repo}</Link>
                 </li>
               )
             })}
